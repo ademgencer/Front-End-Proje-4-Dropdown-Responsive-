@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <!-- Font ekledik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Poppins:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./dropdown.css">
+</head>
+
+<body>
+    <nav>
+        <a href="">HTML WEB</a>
+        <!-- Ekran küçüldüğünde gözükecek menü -->
+        <input type="checkbox" id="check">
+        <label for="check" id="menu">
+            <span>MENU<i class="fa-solid fa-bars"></i></span>
+        </label>
+        <ul>
+            <li><a href="">Ana Sayfa</a></li>
+            <li id="lesson"><a href="">Dersler</a>
+                <ul class="lesson">
+                    <li><a href="">Edebiyat</a></li>
+                    <li><a href="">Fen Bilgisi</a></li>
+                    <li><a href="">Matematik</a>
+                        <ul class="mathtype">
+                            <li><a href="">Analitik</a></li>
+                            <li><a href="">Cebir</a></li>
+                            <li><a href="">Geometri</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">iletişim</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
