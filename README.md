@@ -1,6 +1,6 @@
 # Front End Projem 4
 
-## Dropdown ve Responsive site çalışmam.
+## Dropdown ve Responsive web sitesi çalışmam.
 
 ### Kodlar için master branch a bakınız.
 
